@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*changed div class="header" to header element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +24,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/*created a nav element */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*changed .hero to figure element and added new tags in html to better help with screen readers */
 figure {
     height: 800px;
     width: 100%;
@@ -59,13 +59,13 @@ figure {
     background-size: cover;
     background-position: center;
 }
-
+/*changed .content to main element*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*added aside element in order to condense a lot of the overlap in the older code*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -102,7 +102,7 @@ main section {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*removed individual .floats and targetd the unique float with #right-float*/
 main section img {
     max-height: 200px;
     float: left;
@@ -114,12 +114,12 @@ main section img {
     float: right;
     margin-left: 25px;
 }
-
+/*removed many specific classed and condensed css to section elements*/
 section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*added footer element*/
 footer {
     padding: 30px;
     clear: both;
